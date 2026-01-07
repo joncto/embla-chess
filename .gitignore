@@ -1,0 +1,44 @@
+# --------------------
+# Python / virtualenv
+# --------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# --------------------
+# ML artifacts
+# --------------------
+data/replay*
+data/*.npz
+data/*.pt
+data/*.pth
+data/*.onnx
+data/nets/
+runs/
+logs/
+
+# --------------------
+# Local config / secrets
+# --------------------
+.env
+.env.*
+*.secret
+secrets/
+config.local.*
+settings.local.*
+
+# --------------------
+# OS / editor junk
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------
+# Temporary files
+# --------------------
+*.tmp
+*.swp
+*.bak
